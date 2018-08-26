@@ -1,15 +1,34 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
+import ShowBlogs from './views/ShowBlogs.vue'
+import AddBlog from './views/AddBlog.vue'
+import SingleBlog from './views/SingleBlog.vue'
 
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
-      name: 'home',
+      name: 'Home',
       component: Home
+    },
+    {
+      path: '/add',
+      name: 'AddBlog',
+      component: AddBlog
+    },
+    {
+      path: '/blogs',
+      name: 'ShowBlogs',
+      component: ShowBlogs
+    },
+    {
+      path: '/blogs/:id',
+      name: 'SingleBlog',
+      component: SingleBlog
     },
     {
       path: '/about',

@@ -1,21 +1,7 @@
-# vuetify-app
+## About
 
-## Project setup
-```
-npm install
-```
+This simple app is built with following technologies:
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
+- [VueJS](https://vuejs.org/)
+- [Vuetify](https://vuetifyjs.com/en/)
+- [Firebase](https://firebase.google.com/)
